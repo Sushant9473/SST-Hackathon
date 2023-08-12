@@ -15,14 +15,14 @@
   <body>
     <h1 class="display-1 text-center title">Things i need to do</h1>
     <div class="container">
-      <div class="row">
-        <div class="col">
+      <div class="row justify-content-around">
+        <div class="col-4 ">
           <h2>My List</h2>
           <ul>
             <li class="list-name active-list">Youtube</li>
             <li class="list-name">School Work</li>
             <li class="list-name">Personal Work</li>
-          </ul>
+          </ul class="task-list">
           <form action="">
             <input
               type="text"
@@ -33,7 +33,7 @@
             <button class="btn create" aria-label="create new list">+</button>
           </form>
         </div>
-        <div class="col">
+        <div class="col-5">
           <div class="todo-header">
             <h2 class="list-title">YouTube</h2>
             <p class="task-count">3 tasks remaining</p>
@@ -41,10 +41,9 @@
           <div class="tasks">
             <div class="task">
               <input 
-                type="checkbox"
-                id="task-1"
+              class="form-check-input" type="checkbox" value="" id="flexCheckDefault task1"
               />
-              <label for="task-1">
+              <label class="form-check-label" for="flexCheckDefault task1">
                 <span class="custom-checkbox"></span>
                 record todo list video
               </label>
@@ -53,10 +52,9 @@
   
             <div class="task">
                 <input 
-                  type="checkbox"
-                  id="task-2"
+                class="form-check-input" type="checkbox" value="" id="flexCheckDefault task2"
                 />
-                <label for="task-2">
+                <label class="form-check-label" for="flexCheckDefault task2">
                   <span class="custom-checkbox"></span>
                   another task
                 </label>
@@ -65,11 +63,10 @@
   
               <div class="task">
                   <input 
-                    type="checkbox"
-                    id="task-3"
+                  class="form-check-input" type="checkbox" value="" id="flexCheckDefault task3"
                   />
-                  <label for="task-3">
-                    <span class="custom-checkbox"></span>
+                  <label class="form-check-label" for="flexCheckDefault task3">
+                      <span class="custom-checkbox"></span>
                     a third task
                   </label>
                 </div>
@@ -87,8 +84,8 @@
                 </div>
         
                 <div class="delete-stuff">
-                  <button class="btn delete">Clear completed tasks</button>
-                  <button class="btn delete">Delete list</button>
+                  <button class="btn delete shadow-lg">Clear completed tasks</button>
+                  <button class="btn delete shadow-lg">Delete list</button>
                 </div>
           </div>
         </div>

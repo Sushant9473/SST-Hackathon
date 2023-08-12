@@ -1,12 +1,89 @@
-/* body {
+body {
   background: linear-gradient(to right, #009fff, #ec2f4b);
   font-weight: 300;
   font-size: 1.5rem;
 }
 
-.titel{
-    font-size: calc(7vw + 2rem);
-    font-weight: 900;
-    letter-spacing: 1px;
-    /* margin: -0.3em 0 0.5em; */
-} */
+.title {
+  font-size: calc(7vw + 2rem);
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 0.2em 0 0.5em;
+}
+
+/* .task-list {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    list-style: circle;
+    padding-left: 1.1em;
+  } */
+
+.list-name {
+  cursor: pointer;
+}
+
+.list-name:hover {
+  opacity: 0.5;
+}
+
+.btn {
+  color: inherit;
+}
+
+.btn.create {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-right: 0.25em;
+  transition: opacity 250ms ease-in;
+}
+
+.btn.create:hover {
+  opacity: 0.7;
+}
+
+.btn.delete {
+  opacity: 0.7;
+  font-size: 1rem;
+  transition: color 200ms;
+}
+
+.btn.delete:hover {
+  color: black;
+}
+
+.new {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  border-bottom: 1px solid currentColor;
+  font-size: inherit;
+  outline: none;
+  padding: 0.25em;
+  transition: border-bottom 150ms ease-in;
+  order: 2;
+}
+
+.active-list {
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.task {
+  position: relative;
+  margin-bottom: 0.8em;
+  
+}
+
+label.checked{
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
