@@ -1,4 +1,4 @@
 # SST-Hackathon
 To Do List 
 
-Live Preview - https://github.com/Sushant9473/SST-Hackathon
+Live Preview - sushant9473.github.io/SST-Hackathon
